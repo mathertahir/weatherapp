@@ -1,0 +1,105 @@
+
+.main-wrapper{
+
+   height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    .container{
+
+        width: 500px;
+        margin: auto;
+        background-color: indigo;
+    
+        height: 100%;
+    
+      padding-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+   
+    
+    
+      .search-bar-parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px ;
+    
+        .search-bar{
+            height: 35px;
+            padding: 0px 20px;
+            border-radius: 20px;
+            border: none;
+        }
+    
+        .search-icon{
+            height: 40px;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        background-color: aquamarine;
+        border-radius: 50%;
+    
+    
+        .search-icon-img{
+            height: 12px;
+            width: 12px;
+        }
+        }
+    
+    
+      }
+    
+      .cloud-parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        padding: 20px 0px;
+        .cloud-img{
+            height: 130px;
+            width: 130px;
+        }
+      }
+    
+      .temp{
+        font-size: 50px;
+        color: white;
+        font-weight: 500;
+      }
+    
+      .city{font-size: 50px;
+        font-weight: 500;
+        color: white;
+    
+    
+    }
+    
+    .weather-desc{
+    
+        /* width: 40%; */
+       
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 40px 0px;
+    
+    }
+      
+    }
+    
+}
+
+
+.cl-white{
+    color: white;
+    font-size: 14px;
+}
